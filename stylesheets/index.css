@@ -30,5 +30,17 @@ a, a:hover, a:visited{
 
 .share{
     margin-left: 7em;
+    height: 3em;
+    
+}
+
+.announcements{
+    text-align: center;
+    margin-top: 5em;
+    font-style: italic;
+}
+
+.col-md-3{
+    margin-top: 3em;
 }
 
