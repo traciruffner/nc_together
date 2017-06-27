@@ -1,13 +1,14 @@
 body{
     height: auto;
     width: 100%;
-    background-color: #cceeff;
+    background-color: #f7c8cf;
 }
 
 .heading{
     height: auto:
     width: 100%;
     background-color: white;
+    border-bottom: 2px solid black;
 }
 
 .banner{
@@ -15,5 +16,19 @@ body{
     height: 300px;
     margin-left: auto;
     margin-right: auto;
+}
+
+a, a:hover, a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.col-md-6{
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.share{
+    margin-left: 7em;
 }
 
