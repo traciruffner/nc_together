@@ -18,6 +18,12 @@ body{
     margin-right: auto;
 }
 
+.btn-danger{
+    width: 18%;
+    margin-left:auto;
+    margin-right: auto;
+}
+
 a, a:hover, a:visited{
     text-decoration: none;
     color: white;
@@ -29,9 +35,12 @@ a, a:hover, a:visited{
 }
 
 .share{
-    margin-left: 7em;
-    height: 3em;
-    
+    width: 2.5em;  
+    display: inline-block;
+}
+
+.share-links{
+    display: inline-block;
 }
 
 .announcements{
@@ -43,4 +52,27 @@ a, a:hover, a:visited{
 .col-md-3{
     margin-top: 3em;
 }
+
+@media only screen and (max-width: 499px){
+   .btn-danger{
+      width: 100%;
+    }
+    
+    h1{
+      display: none;
+    }   
+    
+    .share{
+        width: 1.5em;
+    }
+    
+    .col-md-6{
+        margin-top: -4em;
+        height: 175px;
+    
+    }
+    
+   
+}
+    
 
